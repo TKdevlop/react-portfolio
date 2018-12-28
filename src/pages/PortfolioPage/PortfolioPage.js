@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import PortfolioItem from "@components/PortfolioItem";
 import ScrollToPrevious from "@components/ScrollToPrevious";
 import portfolioItems from "./portfolio-items";
-import resume from "@images/Resume.pdf";
+import resume from "../../resume.pdf";
 import "./style.scss";
 
 const PortfolioPage = (props, context) => {

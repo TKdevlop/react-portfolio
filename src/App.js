@@ -6,7 +6,7 @@ import ParallaxBackground from "@components/ParallaxBackground";
 import ScrollTop from "@components/ScrollTop";
 import ThemeSwitcher from "@components/ThemeSwitcher";
 import Browser from "@components/Browser";
-import Footer from "@components/Footer";
+
 class App extends Component {
   render() {
     return (
@@ -19,7 +19,6 @@ class App extends Component {
           <AboutPage />
           <PortfolioPage />
           <ScrollTop />
-          <Footer />
         </ThemeSwitcher>
       </div>
     );
