@@ -1,0 +1,54 @@
+@import "breakpoints";
+
+.portfolio-page {
+  padding-top: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  justify-content: center;
+
+  @include breakpoint-small-down {
+    padding-top: 3rem;
+  }
+
+  h1 {
+    padding: 1rem 0;
+    font-size: 3rem;
+  }
+  .btn {
+    border: 0;
+    border-radius: 2px;
+    padding: 12px 80px;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 15px auto;
+    margin-bottom: 35px;
+    display: block;
+  }
+  .btn:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+  }
+
+  #resume {
+    padding-top: 10px;
+    text-align: center;
+  }
+  .content-grid {
+    flex: auto;
+  }
+
+  .portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @include breakpoint-small-down {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
