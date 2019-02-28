@@ -26,7 +26,7 @@ const AboutPage = (props, context) => {
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
               I love <span className="highlight">JavaScript</span> and
-              everything web.
+              building web.
             </p>
             <p>
               When my dev senses kick-in I build{" "}
@@ -36,13 +36,8 @@ const AboutPage = (props, context) => {
               <span className="highlight">play and build games</span>.
             </p>
             <p>
-              I built this site <span className="highlight">from scratch</span>.
-              <span className="highlight">using a static site generator</span>{" "}
-              (Gatsby which uses React) and had so much fun along the way.
-            </p>
-            <p>
               I love to work with React-Redux, JavaScript, React-Native, Node,
-              Laravel, PHP, SCSS and Vue.
+              Laravel, PHP, SCSS and Vue(Remote preferred).
             </p>
             <p className="text-emoji" style={{ color: colorPrimary }}>
               \ (•◡•) /
